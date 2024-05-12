@@ -28,9 +28,31 @@ const myFunction = function() {
     console.log("Hello saurabh!");
 }
 
-console.log(typeof bigNumber);
-console.log(typeof outsideTemp);
-console.log(typeof scoreValue);
-console.log(typeof myFunction);
-console.log(typeof heros);
-console.log(typeof id);
+// console.log(typeof bigNumber);
+// console.log(typeof outsideTemp);
+// console.log(typeof scoreValue);
+// console.log(typeof myFunction);
+// console.log(typeof heros);
+// console.log(typeof id);
+
+// Memory:
+
+// Stack (Primitive), Heap (Non-Primtive)
+
+let myName = "SaurabhKumar"
+
+let anothername = myName
+anothername = "Chaiorcode"
+
+console.log(myName);
+console.log(anothername);
+
+let userOne = {
+    email: "saurabhrajgupta587@gmail.com",
+    upi: "rajsaurabh225@ybl"
+}
+
+let userTwo = userOne
+userTwo.email = "user@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
